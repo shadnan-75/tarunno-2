@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  /* লোগোর সাথে সামঞ্জস্যপূর্ণ ডার্ক থিম */
+  background-color: #1a1c4b; 
+  color: #ffffff;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* স্ক্রলবার স্টাইল */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1c4b;
+}
+::-webkit-scrollbar-thumb {
+  background: #92278F;
+  border-radius: 10px;
+}
